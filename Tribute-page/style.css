@@ -1,0 +1,71 @@
+
+/*For Google Fonts:*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h4 {
+	font-size: 21px;
+	line-height: 31px;
+	text-align: justify;
+}
+.hero-area img{
+    height: auto;
+    width: 100%;
+}
+/*For Padding and Background Color:*/
+.pdt {
+	background: #fff;
+	padding: 22px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+/*For a Better Background Color:*/
+.container {
+	background: #dde0e3;
+}
+.jumbotron {
+	background: #dde0e3;
+}
+
+.hero {
+  background: fff;
+  background: #fff;
+  margin: -20px;
+  padding-top: 0;
+}
+.hero-area {
+	background: #fff;
+	padding: 0;
+	padding-top: 49px;
+}
+.section {
+	margin: 11px;
+	text-align: justify;
+}
+.awards img {
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+ul {
+	list-style-type: square;
+}
+li {
+	font-size: 21px;
+	padding-left: 9px;
+}
+/*For stylish button Design*/
+.read-more {
+	font-size: 16px;
+	text-align: center;
+	padding-left: 11px;
+	border-radius: 17px;
+	font-weight: ;
+	padding-top: ;
+}
+.read-more:hover {
+	text-decoration: none;
+	background: blue;
+	border-radius: 40px;
+}
