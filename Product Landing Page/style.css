@@ -1,0 +1,223 @@
+/*For Google Fonts:*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body {
+	padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+}
+.container-fluid{
+    background:#eeeeee;
+}
+.images-section img {
+	width: 326px;
+	padding-top: 23px;
+}
+/*Fixed Header Section*/
+.header{
+	overflow: hidden;
+	background-color: #EEE;
+	position: fixed;
+	top: 0;
+	width: 100%;
+    z-index: 1;
+}
+/*For Nav Section*/
+.main-menu {}
+.main-menu ul {
+	list-style: none;
+}
+.main-menu ul li {
+	display: inline-block;
+}
+.main-menu ul li a {
+	/* float: left; */
+	display: block;
+	color: #0f0f14;
+	text-align: center;
+	padding: 18px 46px;
+	text-decoration: none;
+	font-size: 21px;
+	padding-top: 21px;
+	padding-bottom: 0px;
+}
+.main-menu ul li a:hover {
+}
+.main {
+  margin-top: 30px; /*to avoid content overlay */
+} 
+/*Offset Section*/
+.offset-section {
+	padding-top: 12px;
+}
+.offset-section h2 {
+	font-size: 25px;
+	font-weight: 700;
+}
+/*Heo Section*/
+.hero-section {
+	padding-top: 102px;
+}
+.email {
+	margin-bottom: 16px;
+	margin-top: 9px;
+	width: 267px;
+	font-size: 14px;
+}
+.box-btn-one {
+	background: #F1C40F;
+	padding: 5px 22px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+	border-radius: 4px;
+}
+.box-btn-one:hover {
+	background: orange;
+	color: black;
+	text-decoration: none;
+	transition: background 1s;
+}
+/*feature section*/
+.icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 125px;
+	width: 20vw;
+	color: darkorange;
+
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 125px;
+	width: 60vw;
+	/* padding: 5px; */
+	padding-left: 59px;
+}
+
+.section h3 {
+	font-weight: 700;
+	line-height: 9px;
+	font-size: 26px;
+}
+.section p {
+	font-size: 17px;
+	line-height: 20px;
+	padding-top: 4px;
+}
+/*Video Section*/
+.video-section {
+	padding-top: 37px;
+	padding-bottom: 78px;
+}
+/*Pricing Section*/
+.pricing-section {
+	border: 1px solid black;
+	width: 316px;
+	height: auto;
+}
+.pricing-section h4 {
+	background: #DDD;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 15px;
+	text-align: center;
+}
+.box-btn {
+	background: #F1C40F;
+	padding: 5px 22px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: black;
+	border-radius: 4px;
+}
+.box-btn:hover {
+	background: orange;
+	color: black;
+	text-decoration: none;
+	transition: background 1s;
+}
+/*Footer Section*/
+.footer-section {
+	background: #ddd;
+	height: 80px;
+	margin-top: 42px;
+	text-align: right;
+}
+.footer-section p {
+	font-size: 15px;
+	color: #444;
+	margin-top: 15ox;
+	display: block;
+	line-height: 0px;
+	margin-right: 13px;
+}
+.footer-menu {
+	margin: 0;
+	padding: 0;
+}
+.footer-menu {
+	margin: 0;
+	padding: 0;
+}
+.footer-menu ul li {
+	display: inline-block;
+}
+.footer-menu ul li a {
+	color: #050500;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+	padding-top: 13px;
+	padding-left: 0px;
+	padding-right: 26px;
+}
+/*Resoponsive CSS*/
+@media (max-width: 595px) {
+    .main {
+	margin-top: 116px;
+}
+    .main-menu ul li a {
+    display: block;
+	color: #0f0f14;
+	text-align: center;
+	padding: 0px 3px;
+	text-decoration: none;
+	font-size: 19px;
+	padding-top: 9px;
+	padding-bottom: 0px;
+	padding-right: 27px;
+	color: green;
+}
+    .section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 125px;
+	width: 60vw;
+	padding-left: 69px;
+}
+    .icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 125px;
+	width: 20vw;
+	color: darkorange;
+	padding-top: 119px;
+}
+    .icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 125px;
+	width: 20vw;
+	color: darkorange;
+	padding-top: 119px;
+}
+}
