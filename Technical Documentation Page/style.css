@@ -1,0 +1,98 @@
+.container-fluid{
+    background: #fff;
+}
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body {
+  font-family: "Lato", sans-serif;
+}
+p,li{
+    color:#4D4E53;
+}
+.nav h2 {
+	text-align: center;
+	font-size: 31px;
+	padding-left: 22px;
+}
+/*Fixed Nav Header*/
+.header {
+	overflow: hidden;
+	background-color: #fff;
+	position: fixed;
+	top: 0px;
+	width: 309px;
+	padding-top: 13px;
+	padding-right: 14px;
+}
+/*For Fixed Side Nav*/
+.sidenav {
+	height: 100%;
+	width: 309px;
+	position: fixed;
+	z-index: 1;
+	top: 61px;
+	left: 0;
+	background-color: #f5f5f5;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav ul {
+	list-style: none;
+	border: 1px;
+	padding: 0px;
+	padding-left: 5px;
+	text-align: justify;
+}
+.sidenav ul li {
+	display: block;
+	border-bottom: 1px solid #4D4E53;
+}
+.sidenav ul li a {
+	text-decoration: none;
+	font-size: 17px;
+	color: #4D4E53;
+	display: block;
+	padding: 10px 0;
+	padding-left: 39px;
+	padding-right: 13px;
+	border-top: none;
+}
+
+.sidenav ul li a:hover {
+	color: #4D4E53;
+}
+/*For Making Same Design as freecodecamp project*/
+.sidenav ul li:nth-child(1) {
+	border-top: 1px solid black;
+}
+.sidenav ul li:nth-child(14){
+    border-bottom: none;
+}
+.main {
+	padding-left: 123px;
+	text-align: justify;
+	padding-top: 33px;
+}
+/*For Code Area*/
+code {
+	display: block;
+	text-align: left;
+	white-space: pre;
+	position: relative;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 2;
+	background-color: #f7f7f7;
+	padding: 15px;
+	margin: 10px;
+	border-radius: 5px;
+    color: #4D4E53;
+}
+/*Referrance Section*/
+#mdn {
+	display: inline;
+	padding: 0px;
+	color: blue;
+    text-decoration: none;
+
+}
