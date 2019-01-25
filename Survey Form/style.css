@@ -1,0 +1,97 @@
+/*For Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.container-fluid {
+	background: #a9d7d1;
+	padding-bottom: 3%;
+}
+.container {
+	background: #fafafa;
+	width: 921px;
+}
+#title {
+	text-align: center;
+	padding: 36px 0px 11px 0px;
+	font-size: 34px;
+}
+#description {
+	padding: 26px 0 0px 0;
+	font-size: 19px;
+	font-weight: lighter;
+	margin-bottom: 5px;
+}
+.left {
+	display: inline-block;
+	text-align: r;
+	width: 24%;
+	padding: 3px;
+	vertical-align: top;
+	margin-top: 4px;
+	font-size: 19px;
+	margin-left: 288px;
+	padding-top: 25px;
+}
+.right {
+	width: 90%;
+	display: inline-block;
+	margin-left: -81px;
+	padding-top: 25px;
+}
+.details-left {
+	display: inline-block;
+	text-align: right;
+	/* width: 40%; */
+	margin-top: 4px;
+	font-size: 19px;
+	max-width: 81%;
+}
+.details-right {
+	width: 39%;
+	display: inline-block;
+	margin-left: -81px;
+	padding-top: 9px;
+}
+.code-left {
+	display: inline-block;
+	text-align: right;
+	width: 78%;
+	padding: 3px;
+	vertical-align: top;
+	margin-top: 4px;
+	font-size: 19px;
+}
+.code-right {
+	width: 89%;
+	display: inline-block;
+	margin-left: -101px;
+}
+input:invalid {
+	border: 1px solid #fb1b0b;
+}
+.detail-left {
+	display: inline-block;
+	text-align: right;
+	margin-top: 7px;
+	font-size: 19px;
+	margin-left: 54px;
+}
+.details-right {
+	width: 39%;
+	display: inline-block;
+	margin-left: -81px;
+	padding-bottom: 15px;
+}
+/*For Button*/
+#submit {
+	padding: 4px 14px;
+	border-radius: 7px;
+	margin: 12px 0;
+    transition:0.5s;
+}
+#submit:hover {
+	background: #0ef020;
+    transition:0.5s;
+}
