@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+    width:100%;
+}
+.relative{
+    position:relative;
+    overflow: hidden;
+}
+
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+}
+.menu ul {
+  background: #537b19;
+  \}: ;
+  padding: 2px 0px;
+}
+.menu ul li {
+  display: inline;
+  /*! padding: 10px 21px; */
+  /*! background: #405e14; */
+}
+.menu ul li a {
+  color: #fff;
+  padding: 4px 22px;
+  font-size: 18px;
+  text-align: center;
+    transition:0.5s;
+}
+.menu ul li a:hover {
+  color: #060100;
+  border: ;
+  background: #37e425;
+ transition:0.5s;
+}
+.hero-area img {
+	height: 113px;
+	width: 100%;
+}
